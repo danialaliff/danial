@@ -1,0 +1,87 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 50px;
+}
+
+body {
+  font-family: 'Lobster', cursive;
+  color: #ff8af9;
+  margin: 2em;
+  background-image: url("https://images.unsplash.com/photo-1515251350961-1d256c0d7699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+h1 {
+  font-style: italic;
+  color: #faf625;
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 5px 5px 10px red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Caveat', cursive;
+  color : #ff0084;
+  font-weight: bold;
+  line-height: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #14c4c7;
+  display: inline-block;
+/*   width: 100%; */
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px blue;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 35px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 30px;
+}
+
+button {
+  font-size: 30px;
+  border-radius: 6px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+  align:center;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
